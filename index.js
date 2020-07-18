@@ -380,6 +380,174 @@ let dataControl = (() => {
         new RecipeItem('1', 'tsp', 'pepper'),
       ]
     ),
+    //=====================================================================>
+    new NewRecipe(
+      '(copy1) Pasta with Tomato Cream Sauce',
+      'The Pioneer Woman',
+      'test-1.jpg',
+      '23456',
+      45,
+      'https://www.foodnetwork.com/recipes/ree-drummond/pasta-with-tomato-cream-sauce-2532878',
+      [
+        new RecipeItem('1000', 'g', 'pasta'),
+        new RecipeItem('1', 'cup', 'Ricotta Cheese'),
+        new RecipeItem('1', 'can', 'tomatoes, whole or crushed'),
+        new RecipeItem('1', 'can', 'tuna packed in olive oil'),
+        new RecipeItem('4', 'tbsp', 'fresh basil, chopped or torn'),
+        new RecipeItem('1', 'cup', 'grated parmesean cheese'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Pasta Salad with tuna',
+      'Spicy Perspective',
+      'test-2.jpg',
+      '76767',
+      30,
+      'https://tastesbetterfromscratch.com/tuna-pasta-salad/',
+      [
+        new RecipeItem('8', 'ounces', 'small shell pasta'),
+        new RecipeItem(
+          '7',
+          'ounces',
+          'canned albacore white tune, packed in water'
+        ),
+        new RecipeItem('2', 'ribs', 'celery'),
+        new RecipeItem('100', 'g', 'red onion'),
+        new RecipeItem('1', 'cup', 'green peas'),
+        new RecipeItem('200', 'g', 'mayonnaise'),
+        new RecipeItem('200', 'g', 'Greek yogurt'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Homemade Tomato and beef sauce',
+      'All Recipes',
+      'test-3.jpg',
+      '85354',
+      '85354',
+      75,
+      'https://www.allrecipes.com/recipe/158140/spaghetti-sauce-with-ground-beef/',
+      [
+        new RecipeItem('1', 'pound', 'ground beef'),
+        new RecipeItem('1', 'piece', 'onion'),
+        new RecipeItem('4', 'cloves', 'garlic'),
+        new RecipeItem('1', 'piece', 'small green bell pepper'),
+        new RecipeItem('1', 'can', 'diced tomatoes'),
+        new RecipeItem('1', 'can', 'tomato paste'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Pasta with Tomato and pesto',
+      'The Pioneer Woman',
+      'test-4.jpg',
+      '43563',
+      30,
+      'https://www.bettycrocker.com/recipes/pesto-pasta-with-chicken-and-tomatoes/0164437a-04d6-49e9-94f6-5500f91db82e',
+      [
+        new RecipeItem('1', 'cup', 'firmly packed basil leaves'),
+        new RecipeItem('1', 'clove', 'Garlic'),
+        new RecipeItem('2', 'tbsp', 'sliced almonds, toasted'),
+        new RecipeItem('12', 'ounces', 'uncooked penne pasta'),
+        new RecipeItem('2', 'cups', 'shredded chicken'),
+        new RecipeItem('3', 'tbsp', 'grated parmasan cheese'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Greek Pasta salad',
+      'Chow',
+      'test-5.jpg',
+      '2256665',
+      25,
+      'https://www.spendwithpennies.com/easy-greek-pasta-salad/',
+      [
+        new RecipeItem('16', 'ounces', 'short pasta'),
+        new RecipeItem('1', 'piece', 'cucumber'),
+        new RecipeItem('1', 'pint', 'grapes'),
+        new RecipeItem('1', 'piece', 'bell pepper'),
+        new RecipeItem('1', 'cup', 'bottled greek vinaigrette'),
+        new RecipeItem('1', 'tsp', 'oregano'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Cherry tomato, kale, ricotta, and pesto pasta',
+      'BBC Good Food',
+      'test-9.jpg',
+      '7567567',
+      25,
+      'https://www.bbcgoodfood.com/recipes/cherry-tomato-kale-ricotta-pesto-pasta',
+      [
+        new RecipeItem('2', 'tbsp', 'olive oil'),
+        new RecipeItem('3', 'cloves', 'garlic, chopped'),
+        new RecipeItem('800', 'g', 'cherry tomatoes'),
+        new RecipeItem('500', 'g', 'penne pasta'),
+        new RecipeItem('200', 'g', 'kale'),
+        new RecipeItem('4', 'tbsp', 'ricotta'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Pasta with Fresh tomato and basil sauce',
+      'Chow',
+      'test-7.jpg',
+      '5676577',
+      40,
+      'https://cooking.nytimes.com/recipes/8663-spaghetti-with-fresh-tomato-and-basil-sauce',
+      [
+        new RecipeItem('3', 'pounds', 'fresh plum tomatoe'),
+        new RecipeItem('3', 'ounces', 'olive oil'),
+        new RecipeItem('1', 'pound', 'dry spaghetti'),
+        new RecipeItem('1', 'tbsp', 'butter'),
+        new RecipeItem('6', 'leaves', 'fresh basil'),
+        new RecipeItem('2', 'tbsp', 'freshly grated parmigiano-reggiano chees'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Pesto Pasta Salad',
+      'Eats Well With Others',
+      'test-10.jpg',
+      '987999',
+      25,
+      'https://cookieandkate.com/pesto-pasta-salad-recipe/',
+      [
+        new RecipeItem('1', 'pound', 'whole grain pasta'),
+        new RecipeItem('1', 'pint', 'cherry tomatoes'),
+        new RecipeItem('1', 'pound', 'baby arugula or spinach'),
+        new RecipeItem('300', 'g', 'kalamata olives'),
+        new RecipeItem('1', 'can', 'chickpeas'),
+        new RecipeItem('1', 'clove', 'garlic'),
+        new RecipeItem('100', 'g', 'fresh basil leaves'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Pasta with Roasted vegetables sauce',
+      'Two Peas and Their Pod',
+      'test-6.jpg',
+      '5464646456',
+      40,
+      'https://www.foodnetwork.com/recipes/food-network-kitchen/roasted-vegetable-pasta-recipe-2121114',
+      [
+        new RecipeItem('2', 'piece', 'zucchini'),
+        new RecipeItem('1', 'piece', 'asparagus'),
+        new RecipeItem('3', 'tbsp', 'olive oil'),
+        new RecipeItem('1', 'piece', 'small onion'),
+        new RecipeItem('9', 'ounces', 'fresh linguine'),
+        new RecipeItem('1', 'pound', 'pasta'),
+      ]
+    ),
+    new NewRecipe(
+      '(copy1) Buttery Tomato Pasta Sauce',
+      'Simply Recipes',
+      'test-8.jpg',
+      '98798',
+      25,
+      'https://www.simplyrecipes.com/recipes/buttery_tomato_pasta/',
+      [
+        new RecipeItem('1', 'pound', 'fusili pasta'),
+        new RecipeItem('14', 'ounces', 'tomatoes'),
+        new RecipeItem('2', 'tbps', 'butter'),
+        new RecipeItem('2', 'tsp', 'sugar'),
+        new RecipeItem('1', 'tsp', 'salt'),
+        new RecipeItem('1', 'tsp', 'pepper'),
+      ]
+    ),
   ];
 
   let searchRecipe = (searchValue) => {
@@ -390,11 +558,10 @@ let dataControl = (() => {
     return filteredRecipe;
   };
 
-  //   var all=' '
-  // for (i = 0; i < output.length; i+=2) {
-  //    var data = output.slice(i,i+2);
-  // all += `${data} `
-  // }
+  let nextBtnData = {
+    useActivateBtn: false,
+    useArrayLength: 1,
+  };
 
   let htmlForResult = (filteredRecipe) => {
     let arraysResult = [],
@@ -420,18 +587,20 @@ let dataControl = (() => {
       htmlString1 = `<li id='page${
         arraysResult.indexOf(el) + 1
       }'></li> ${htmlString1}`;
-      console.log(htmlString1);
+      // console.log(htmlString1);
       htmlString = htmlString + htmlString1;
     });
 
     if (arraysResult.length > 1) {
-      nextPageString = `  <a href="#page1"> <button class="btn-inline results__btn--prev"> <span>Page 1</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-left"></use> </svg> </button> </a> <a href="#page2"> <button class="btn-inline results__btn--next"> <span>Page 2</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-right"></use> </svg> </button></a>`;
+      nextPageString = `</a> <a href="#page2" id='pageBtn2'> <button class="btn-inline results__btn--next"> <span>Page 2</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-right"></use> </svg> </button></a>`;
+      nextBtnData.useActivateBtn = true;
     }
-
+    nextBtnData.useArrayLength = arraysResult.length;
     return {
       htmlStringUse: htmlString,
       nextPageStringUse: nextPageString,
-      // console.log(htmlString);
+      // activateBtnsUse: activateBtns,
+      // arrayLength: arraysResult.length,
     };
   };
 
@@ -580,6 +749,9 @@ let dataControl = (() => {
     useLikeARecipe: () => {
       return likeARecipe();
     },
+    useNextBtnData: () => {
+      return nextBtnData;
+    },
     testing: () => {
       console.log(currentRecipe);
       return currentRecipe;
@@ -656,6 +828,37 @@ let uiControl = (() => {
     },
     nextPageeBtn: (string) => {
       document.querySelector(domStrings.pagesResults).innerHTML = string;
+    },
+    printPageBtns: (idNumber, length, pageNumber) => {
+      let htmlString1, htmlString2;
+      if (pageNumber === 1) {
+        htmlString2 = ' ';
+        htmlString1 = `</a> <a href="#page2" id='pageBtn2'> <button class="btn-inline results__btn--next"> <span>Page 2</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-right"></use> </svg> </button></a>`;
+      } else if (pageNumber === length) {
+        htmlString1 = `<a href="#page${length - 1}" id='pageBtn${
+          length - 1
+        }'> <button class="btn-inline results__btn--prev"> <span>Page ${
+          length - 1
+        }</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-left"></use> </svg>
+              </button> </a>`;
+        htmlString2 = ' ';
+      } else {
+        htmlString1 = `<a href="#page${idNumber - 1}" id='pageBtn${
+          idNumber - 1
+        }'> <button class="btn-inline results__btn--prev"> <span>Page ${
+          idNumber - 1
+        }</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-left"></use> </svg>
+            </button> </a>`;
+        htmlString2 = `<a href="#page${idNumber + 1}" id='pageBtn${
+          idNumber + 1
+        }'> <button class="btn-inline results__btn--next"> <span>Page ${
+          idNumber + 1
+        }</span> <svg class="search__icon"> <use href="img/icons.svg#icon-triangle-right"></use> </svg>
+            </button> </a>`;
+      }
+      console.log(htmlString1 + htmlString2);
+      document.querySelector(domStrings.pagesResults).innerHTML =
+        htmlString1 + htmlString2;
     },
     changeLikeBtn: (argument) => {
       console.log('here');
@@ -734,11 +937,13 @@ let control = ((uiControl, dataControl) => {
   let searchItem = () => {
     let searchInput = uiControl.getSearchInput().toLowerCase();
     let filteredResult = dataControl.useSearchRecipe(searchInput);
-    let htmlString = dataControl.useHtmlForResult(filteredResult).htmlStringUse;
-    let nextPageString = dataControl.useHtmlForResult(filteredResult)
-      .nextPageStringUse;
+    let dataUseHtmlForResult = dataControl.useHtmlForResult(filteredResult);
+    let htmlString = dataUseHtmlForResult.htmlStringUse;
+    let nextPageString = dataUseHtmlForResult.nextPageStringUse;
     uiControl.printSearchResult(htmlString);
     uiControl.nextPageeBtn(nextPageString);
+    // nextBtnPage(argument, dataUseHtmlForResult.arrayLength);
+    evenListenerNextPage();
     selectRecipe();
   };
 
@@ -786,6 +991,31 @@ let control = ((uiControl, dataControl) => {
     currentAmount = dataControl.useCurrentRecipe().servings[numServing];
     uiControl.printNewServing(currentAmount);
     uiControl.printServingNumber(numServing);
+  };
+
+  let evenListenerNextPage = () => {
+    if (dataControl.useNextBtnData().useActivateBtn === true) {
+      console.log('jose');
+      document
+        .querySelector(domStrings.pagesResults)
+        .addEventListener('click', nextBtnPage, true);
+    }
+  };
+
+  let nextBtnPage = (e) => {
+    console.log(e.target);
+    let idName, array, idNumber, length, pageIdentifier, pageArray, pageNumber;
+    length = dataControl.useNextBtnData().useArrayLength;
+    idName = document.querySelector(domStrings.pagesResults).children[0].id;
+    pageIdentifier = e.target.textContent;
+    pageArray = pageIdentifier.split(' ');
+    pageNumber = parseInt(pageArray[1]);
+    console.log(pageNumber);
+    array = idName.split('n');
+    idNumber = parseInt(array[1]);
+
+    uiControl.printPageBtns(idNumber, length, pageNumber);
+    evenListenerNextPage();
   };
 
   return {
