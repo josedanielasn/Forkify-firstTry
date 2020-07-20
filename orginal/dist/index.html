@@ -2,65 +2,62 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>forkify // Search over 1,000,000 recipes</title>
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <img src="img/logo.png" alt="Logo" class="header__logo" />
-            <!-- <form class="search"> -->
-            <div class="search">
-                </form>
-                <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes..." />
+            <img src="../img/logo.png" alt="Logo" class="header__logo">
+            <form class="search">
+                <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes...">
                 <button class="btn search__btn">
                     <svg class="search__icon">
-                        <use href="img/icons.svg#icon-magnifying-glass"></use>
+                        <use href="../img/icons.svg#icon-magnifying-glass"></use>
                     </svg>
                     <span>Search</span>
                 </button>
-            </div>
-            <!-- </form> -->
+            </form>
             <div class="likes">
                 <div class="likes__field">
                     <svg class="likes__icon">
-                        <use href="img/icons.svg#icon-heart"></use>
+                        <use href="../img/icons.svg#icon-heart"></use>
                     </svg>
                 </div>
-                <!-- <div class="likes__panel"> -->
-                    <!-- <ul class="likes__list"> -->
-                        <!--    -->
-                        <!-- <li>
+                <div class="likes__panel">
+                    <ul class="likes__list">
+                        <!--
+                        <li>
                             <a class="likes__link" href="#23456">
                                 <figure class="likes__fig">
-                                    <img src="img/test-1.jpg" alt="Test" />
+                                    <img src="img/test-1.jpg" alt="Test">
                                 </figure>
                                 <div class="likes__data">
                                     <h4 class="likes__name">Pasta with Tomato ...</h4>
                                     <p class="likes__author">The Pioneer Woman</p>
                                 </div>
                             </a>
-                        </li> -->
-                        <!--    -->
-                    <!-- </ul> -->
-                <!-- </div> -->
+                        </li>
+                        -->
+                    </ul>
+                </div>
             </div>
         </header>
 
+
         <div class="results">
-            <ul class="results__list" id='jd'>
-                   <!-- -->  
-                <!-- <li id='page1'></li>
+            <ul class="results__list">
+                <!--
                 <li>
-                    <a class="results__link" href="#2345" id='23456'>
+                    <a class="results__link results__link--active" href="#23456">
                         <figure class="results__fig">
-                            <img src="img/test-1.jpg" alt="Test" />
+                            <img src="img/test-1.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Pasta with Tomato ...</h4>
@@ -70,9 +67,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#76767" id='2347676756'>
+                    <a class="results__link" href="#76767">
                         <figure class="results__fig">
-                            <img src="img/test-2.jpg" alt="Test" />
+                            <img src="img/test-2.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Pasta Salad with ...</h4>
@@ -82,9 +79,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#8535" id='85354'>
+                    <a class="results__link" href="#85354">
                         <figure class="results__fig">
-                            <img src="img/test-3.jpg" alt="Test" />
+                            <img src="img/test-3.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Homemade Tomato ...</h4>
@@ -94,9 +91,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#4356" id='43563'>
+                    <a class="results__link" href="#43563">
                         <figure class="results__fig">
-                            <img src="img/test-4.jpg" alt="Test" />
+                            <img src="img/test-4.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Pasta with Tomato ...</h4>
@@ -106,9 +103,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#225665" id='2256665'>
+                    <a class="results__link" href="#2256665">
                         <figure class="results__fig">
-                            <img src="img/test-5.jpg" alt="Test" />
+                            <img src="img/test-5.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Greek Pasta with ...</h4>
@@ -118,9 +115,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#756757" id='7567567'>
+                    <a class="results__link" href="#7567567">
                         <figure class="results__fig">
-                            <img src="img/test-9.jpg" alt="Test" />
+                            <img src="img/test-9.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Cherry tomato, kale ...</h4>
@@ -130,9 +127,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#567657" id='5676577'>
+                    <a class="results__link" href="#5676577">
                         <figure class="results__fig">
-                            <img src="img/test-7.jpg" alt="Test" />
+                            <img src="img/test-7.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Pasta with Fresh ...</h4>
@@ -142,9 +139,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#9879" id='98798'>
+                    <a class="results__link" href="#98798">
                         <figure class="results__fig">
-                            <img src="img/test-8.jpg" alt="Test" />
+                            <img src="img/test-8.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Buttery Tomato Pasta ...</h4>
@@ -153,9 +150,9 @@
                     </a>
                 </li>
                 <li>
-                    <a class="results__link" href="#546464645" id='5464646456'>
+                    <a class="results__link" href="#5464646456">
                         <figure class="results__fig">
-                            <img src="img/test-10.jpg" alt="Test" />
+                            <img src="img/test-10.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Pesto Pasta Salad ...</h4>
@@ -165,9 +162,9 @@
                 </li>
 
                 <li>
-                    <a class="results__link" href="#34534543" id='98798'>
+                    <a class="results__link" href="#345345435">
                         <figure class="results__fig">
-                            <img src="img/test-6.jpg" alt="Test" />
+                            <img src="img/test-6.jpg" alt="Test">
                         </figure>
                         <div class="results__data">
                             <h4 class="results__name">Pasta with Roasted ...</h4>
@@ -175,155 +172,34 @@
                         </div>
                     </a>
                 </li>
-                <li id='page2'></li>
-                <li>
-                    <a class="results__link results__link--active" href="#2345" id='23456'>
-                        <figure class="results__fig">
-                            <img src="img/test-1.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Pasta with Tomato ........</h4>
-                            <p class="results__author">The Pioneer Woman</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#76767" id='2347676756'>
-                        <figure class="results__fig">
-                            <img src="img/test-2.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Pasta Salad with ...</h4>
-                            <p class="results__author">Spicy Perspective</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#8535" id='85354'>
-                        <figure class="results__fig">
-                            <img src="img/test-3.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Homemade Tomato ...</h4>
-                            <p class="results__author">All Recipes</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#4356" id='43563'>
-                        <figure class="results__fig">
-                            <img src="img/test-4.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Pasta with Tomato ...</h4>
-                            <p class="results__author">The Pioneer Woman</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#225665" id='2256665'>
-                        <figure class="results__fig">
-                            <img src="img/test-5.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Greek Pasta with ...</h4>
-                            <p class="results__author">Chow</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#756757" id='7567567'>
-                        <figure class="results__fig">
-                            <img src="img/test-9.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Cherry tomato, kale ...</h4>
-                            <p class="results__author">BBC Good Food</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#567657" id='5676577'>
-                        <figure class="results__fig">
-                            <img src="img/test-7.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Pasta with Fresh ...</h4>
-                            <p class="results__author">Chow</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#9879" id='98798'>
-                        <figure class="results__fig">
-                            <img src="img/test-8.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Buttery Tomato Pasta ...</h4>
-                            <p class="results__author">Simply Recipes</p>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="results__link" href="#546464645" id='5464646456'>
-                        <figure class="results__fig">
-                            <img src="img/test-10.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Pesto Pasta Salad ...</h4>
-                            <p class="results__author">Eats Well With Others</p>
-                        </div>
-                    </a>
-                </li>
-
-                <li>
-                    <a class="results__link" href="#34534543" id='98798'>
-                        <figure class="results__fig">
-                            <img src="img/test-6.jpg" alt="Test" />
-                        </figure>
-                        <div class="results__data">
-                            <h4 class="results__name">Pasta with Roasted ...</h4>
-                            <p class="results__author">Two Peas and Their Pod</p>
-                        </div>
-                    </a>
-                </li> -->
-                <!--    -->
+                -->
             </ul>
-                <!--    -->
+
             <div class="results__pages">
-                <!--    -->
-                <!-- <a href="#page1" id='pageBtn1'>
+                <!--
                 <button class="btn-inline results__btn--prev">
-                    <span>Page 1</span>
                     <svg class="search__icon">
                         <use href="img/icons.svg#icon-triangle-left"></use>
                     </svg>
+                    <span>Page 1</span>
                 </button>
-                </a>
-                <a href="#page2">
                 <button class="btn-inline results__btn--next">
-                    <span>Page 2</span>
+                    <span>Page 3</span>
                     <svg class="search__icon">
                         <use href="img/icons.svg#icon-triangle-right"></use>
                     </svg>
                 </button>
-            </a> -->
-                <!--    -->
+                -->
             </div>
-            <!--    -->
         </div>
 
+
+
         <div class="recipe">
-            <!--    -->
-            <!-- <figure class="recipe__fig">
-                <img src="img/test-1.jpg" alt="Tomato" class="recipe__img" />
+
+            <!--
+            <figure class="recipe__fig">
+                <img src="img/test-1.jpg" alt="Tomato" class="recipe__img">
                 <h1 class="recipe__title">
                     <span>Pasta with tomato cream sauce</span>
                 </h1>
@@ -344,17 +220,18 @@
                     <span class="recipe__info-text"> servings</span>
 
                     <div class="recipe__info-buttons">
-                        <button class="btn-tiny"  id="btn-tiny-minus">
+                        <button class="btn-tiny">
                             <svg>
                                 <use href="img/icons.svg#icon-circle-with-minus"></use>
                             </svg>
                         </button>
-                        <button class="btn-tiny" id="btn-tiny-plus">
+                        <button class="btn-tiny">
                             <svg>
                                 <use href="img/icons.svg#icon-circle-with-plus"></use>
                             </svg>
                         </button>
                     </div>
+
                 </div>
                 <button class="recipe__love">
                     <svg class="header__likes">
@@ -362,6 +239,8 @@
                     </svg>
                 </button>
             </div>
+
+
 
             <div class="recipe__ingredients">
                 <ul class="recipe__ingredient-list">
@@ -397,6 +276,7 @@
                             can of tomatoes, whole or crushed
                         </div>
                     </li>
+
 
                     <li class="recipe__item">
                         <svg class="recipe__icon">
@@ -444,28 +324,32 @@
                 <h2 class="heading-2">How to cook it</h2>
                 <p class="recipe__directions-text">
                     This recipe was carefully designed and tested by
-                    <span class="recipe__by">The Pioneer Woman</span>. Please check out
-                    directions at their website.
+                    <span class="recipe__by">The Pioneer Woman</span>. Please check out directions at their website.
                 </p>
-                <a class="btn-small recipe__btn"
-                    href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" target="_blank">
+                <a class="btn-small recipe__btn" href="http://thepioneerwoman.com/cooking/pasta-with-tomato-cream-sauce/" target="_blank">
                     <span>Directions</span>
                     <svg class="search__icon">
                         <use href="img/icons.svg#icon-triangle-right"></use>
                     </svg>
+
                 </a>
-            </div> -->
-            <!--    -->
+            </div>
+            -->
         </div>
+
+
+
+
 
         <div class="shopping">
             <h2 class="heading-2">My Shopping List</h2>
 
             <ul class="shopping__list">
-                <!--    -->
-                <!-- <li class="shopping__item">
+
+                <!--
+                <li class="shopping__item">
                     <div class="shopping__count">
-                        <input type="number" value="500" step="100" />
+                        <input type="number" value="500" step="100">
                         <p>g</p>
                     </div>
                     <p class="shopping__description">Pasta</p>
@@ -478,7 +362,7 @@
 
                 <li class="shopping__item">
                     <div class="shopping__count">
-                        <input type="number" value="0.5" step="0.1" />
+                        <input type="number" value="0.5" step="0.1">
                         <p>cup</p>
                     </div>
                     <p class="shopping__description">Ricotta cheese</p>
@@ -491,7 +375,7 @@
 
                 <li class="shopping__item">
                     <div class="shopping__count">
-                        <input type="number" value="3.5" step="0.1" />
+                        <input type="number" value="3.5" step="0.1">
                         <p>tbsp</p>
                     </div>
                     <p class="shopping__description">Toasted almond slices</p>
@@ -504,7 +388,7 @@
 
                 <li class="shopping__item">
                     <div class="shopping__count">
-                        <input type="number" value="0.5" step="0.1" />
+                        <input type="number" value="0.5" step="0.1">
                         <p>tbsp</p>
                     </div>
                     <p class="shopping__description">Sea salt</p>
@@ -517,7 +401,7 @@
 
                 <li class="shopping__item">
                     <div class="shopping__count">
-                        <input type="number" value="0.25" step="0.1" />
+                        <input type="number" value="0.25" step="0.1">
                         <p>cup</p>
                     </div>
 
@@ -531,7 +415,7 @@
 
                 <li class="shopping__item">
                     <div class="shopping__count">
-                        <input type="number" value="45" step="10" />
+                        <input type="number" value="45" step="10">
                         <p>g</p>
                     </div>
                     <p class="shopping__description">Sesame seeds</p>
@@ -540,14 +424,15 @@
                             <use href="img/icons.svg#icon-circle-with-cross"></use>
                         </svg>
                     </button>
-                </li> -->
-                <!--    -->
+                </li>
+                -->
             </ul>
 
             <div class="copyright">
                 &copy; by Jonas Schmedtmann. Powered by
                 <a href="http://food2fork.com" target="_blank" class="link">Food2Fork.com</a>.
             </div>
+
         </div>
     </div>
 
